@@ -23,7 +23,7 @@ body {
 
 .container:hover > .card {
   cursor: pointer;
-  transform: rotateY(180deg) rotateZ(180deg);
+  transform: rotateY(180deg);
 }
 
 .card {
@@ -50,7 +50,7 @@ body {
 
 .back {
   background-color: #3a3a3a;
-  transform: rotateY(180deg) rotateZ(180deg);
+  transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
   justify-content: center;
